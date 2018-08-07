@@ -19,7 +19,7 @@ const Footer = () => (
     <div style={styles.footerWrapper}>
         <div className="row">
             <div className="col mt-2 ml-3">
-                <small><a href="https://github.com/hannahpatellis/nevernote"><i className="fab fa-github"></i></a>  |  Created by the April 2018 Northwestern Coding Bootcamp class</small>
+                <small><a href="https://github.com/kyle2099/nevernote"><i className="fab fa-github"></i></a>  |  Created by Kyle Souther-Bruno</small>
             </div>
         </div>
     </div>
