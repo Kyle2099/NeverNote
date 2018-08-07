@@ -56,7 +56,7 @@ app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-mongoose.connect("mongodb://prod:ds263710.mlab.com:63710/heroku_6zts412b");
+mongoose.connect(process.env.MONGODB_URL ||"mongodb://prod:ds263710.mlab.com:63710/heroku_6zts412b");
 
 app.listen(PORT, function () {
   console.log(`🌎 ==> Server now on port ${PORT}!`);
